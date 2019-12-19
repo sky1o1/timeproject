@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path
-import timestamp
+from .views import timestamp,index,today
 
 urlpatterns = [
     path('',index), #specifying path from view
